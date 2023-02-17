@@ -1,0 +1,14 @@
+.avatar {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.name {
+  font-weight: bold;
+  text-align: center;
+}
+
+.tag, .location {
+  text-align: center;
+  color: grey;
+}
