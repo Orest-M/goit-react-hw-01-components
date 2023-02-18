@@ -8,7 +8,7 @@ import css from './statistics.module.css';
 const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
-      <StatisticsTitle title={title} />
+      {title ? <StatisticsTitle title={title} /> : null}
       <StatisticsStats stats={stats} />
     </section>
   );
